@@ -119,6 +119,49 @@ fun main(args: Array<String>) {
 [main] INFO io.javalin.Javalin - Javalin has started \o/
 
 ```
+GET /users  
+```
+{
+    "0":{
+        "name":"alice",
+        "email":"alice@aclice.kt",
+        "id":0
+    },
+    "1":{
+        "name":"bob",
+        "email":"bob@bob.kt",
+        "id":1
+    },
+    "2":{
+        "name":"carol",
+        "email":"carol@carol.kt",
+        "id":2
+    },
+    "3":{
+        "name":"dave",
+        "email":"dave@dave.kt",
+        "id":3
+    }
+}
+```  
+GET /users/0
+```
+{
+    "name":"alice",
+    "email":"alice@aclice.kt",
+    "id":0
+}
+```
+GET /users/email/alice@aclick.kt
+```
+{
+    "name":"alice",
+    "email":"alice@aclice.kt",
+    "id":0
+}
+```
+
+
 
 
 
