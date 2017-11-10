@@ -16,7 +16,7 @@
 
 ```      
 ## hello Javalin
-Javalin->java && kotlin,这意味着,你可以使用java||kotlin进行编码.   
+Javalin->java && kotlin,这意味着,你可以使用java||kotlin进行编程.   
 本身是一个轻量级的web框架,目的是用来构建一系列REST API.  
 虽然没有MVC的概念,不过提供了对模板引擎/WS/静态文件服务的支持.  
 ### Hello.kt  
