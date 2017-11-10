@@ -160,6 +160,29 @@ GET /users/email/alice@aclick.kt
     "id":0
 }
 ```
+POST /users/create
+```
+{
+	
+	"name":"json",
+	
+	"email":"json@json.kt"
+
+}
+```
+PATCH /users/update/4
+```
+{
+	
+	"name":"mello",
+	
+	"email":"mello@mello.kt"
+
+}
+
+```
+DELETE /users/delete/5  
+
 
 
 
