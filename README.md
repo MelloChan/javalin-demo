@@ -181,8 +181,16 @@ PATCH /users/update/4
 }
 
 ```
-DELETE /users/delete/5  
+DELETE /users/delete/5    
 
+## email-sending
+```
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-email</artifactId>
+            <version>1.4</version>
+        </dependency>
+```
 
 
 
