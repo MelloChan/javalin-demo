@@ -15,7 +15,7 @@
         </dependency>
 
 ```      
-## hello Javalin
+## Hello Javalin
 Javalin->java && kotlin,这意味着,你可以使用java||kotlin进行编程.   
 本身是一个轻量级的web框架,目的是用来构建一系列REST API.  
 虽然没有MVC的概念,不过提供了对模板引擎/WS/静态文件服务的支持.  
@@ -25,7 +25,7 @@ Javalin->java && kotlin,这意味着,你可以使用java||kotlin进行编程.
 	app.get("/"){ctx->ctx.result("Hello World!")}
 
 ```  
-## simple REST API  
+## Simple REST API  
 ### 创建User实体类  
 ```
 	data class User(var name:String,var email:String,var id: Int)
@@ -183,7 +183,7 @@ PATCH /users/update/4
 ```
 DELETE /users/delete/5    
 
-## email-sending
+## Email-Sending
 ```
         <dependency>
             <groupId>org.apache.commons</groupId>
@@ -191,8 +191,7 @@ DELETE /users/delete/5
             <version>1.4</version>
         </dependency>
 ```
-
-
+## Simple Chat
 
 
 
