@@ -83,7 +83,7 @@ fun main(args: Array<String>) {
 
         get("/users/:id") { ctx ->
             ctx.json(userDao.findById(ctx.param("id")!!.toInt())!!)
-        }// !! 若为null则抛出异常 这里很明显id不为空,转为int型
+        }// !! 若为null则抛出异常   
 
         get("/users/email/:email") { ctx ->
             ctx.json(userDao.findByEmail(ctx.param("email")!!)!!)
@@ -192,6 +192,5 @@ DELETE /users/delete/5
         </dependency>
 ```
 ## Simple Chat
-
-
+## secure rest  
 
